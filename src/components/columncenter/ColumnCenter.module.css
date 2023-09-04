@@ -1,0 +1,513 @@
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Head */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 7%;
+    margin: 20px 0 20px 0;
+}
+
+.greeting_user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+}
+
+.greeting{
+    color: white;
+    opacity: 0.5;
+}
+
+.user{
+    color: white;
+}
+
+.search_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.search{
+    background-color: #321114;
+    color: white;
+    opacity: 0.5;
+    height: 75%;
+    width: 60%;
+    border-radius: 20px;
+    border-style: none;
+    padding-left: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #321114;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border-style: none;
+}
+
+/* Body */
+
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.popular{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #c44542;
+    width: 470px;
+}
+
+.button_popular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #321114;
+    color: white;
+    padding: 5px;
+    font-size: 19px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.evaluations{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.platform{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.like{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 0 10px 0 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.hot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 29px;
+    width: 110px;
+    background-color: #fffdc3;
+    color: black;
+    margin-right: 13px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.head_carousel{
+    color: white;
+    font-size: 40px;
+    margin: 10px 0 10px 0;
+}
+
+pre{
+    color: white;
+    text-wrap: balance;
+}
+
+.user_like{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
+
+.user_like_message{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 3px solid #440606;
+    margin-left: -12px;
+}
+
+.black_text{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.carousel_img{
+    position: absolute;
+    left: 500px;
+    top: -8px;
+    height: 332px;
+    width: 520px;
+    z-index: 2;
+}
+
+.name_block{
+    color: white;
+    font-size: 25px;
+}
+
+
+/* Show Block*/
+
+.game_buttons{
+    opacity: 0;
+    height: 100%;
+}
+
+.game_buttons.show{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    opacity: 1;
+    height: 30px;
+}
+
+.card_name_title{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card_name_title.show{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card_description{
+    display: none;
+}
+
+.card_description.show{
+    display: block;
+    color: white;
+    text-wrap: balance;
+}
+
+/* Block News */
+
+.head_news{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.see_more{
+    display: flex;
+    align-items: end;
+    color: white;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.cards_games{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card_game{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 230px;
+    height: 200px;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.game_button_play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #c13d3d;
+    border-radius: 50%;
+    border-style: none;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.game_button_store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c13d3d;
+    background-color: white;
+    border-radius: 50%;
+    border-style: none;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.card_game_text{
+    background-color: #00000094;
+    border-radius: 20px;
+    padding: 8px;
+    margin: -15px;
+}
+
+/* Block Last Downloads */
+
+.downloads{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 20px 0;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url('/public/hs.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.game_preview,
+.game_statistics{
+    display: flex;
+    align-items: center;
+}
+
+.game_label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f0de;
+    border-radius: 30px;
+    padding: 10px;
+    height: 80px;
+}
+
+.downloads_label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.game_title_box,
+.statistics{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    height: 80px;
+}
+
+.game_title,
+.time{
+    color: white;
+    font-size: 18px;
+}
+
+.game_type,
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #321114;
+    opacity: 0.5;
+    border-radius: 20px;
+    height: 25px;
+}
+
+.play_buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 75px;
+}
+
+/* Right Block */
+
+.more_games{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.advertisement{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 243px;
+}
+
+.advertisement_card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #361518;
+    border-radius: 30px;
+    padding: 12px;
+    height: 47px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.game_img{
+    height: 50px;
+    width: 50px;
+    border-radius: 13px;
+}
+
+.advertisement_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.advertisement_title{
+    color: white;
+}
+
+.advertisement_info{
+    color: white;
+    opacity: 0.5;
+}
+
+.advertisement_arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 30px;
+    border-style: none;
+    color: white;
+}
+
+/* Your Statistics Block*/
+
+.head_news_stat{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.news_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 20px;
+    border-style: none;
+    color: white;
+}
+
+.statistics_block{
+    display: flex;
+    flex-direction: column;
+    height: 403px;
+    background-color: #37161a;
+    padding: 25px 50px 0 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.total_hours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/Gif.gif');
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50px;
+    box-shadow: 0 0 28px #812c36;
+}
+
+.total_time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #812c36;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.total_name{
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.total_meaning{
+    font-size: 25px;
+}
+
+.total_games{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 35%;
+}
+
+.game{
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+
+.logo_game{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.hours_game{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-color: rgb(229 169 169);
+    height: 100%;
+}
+
+.page{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: rgb(98,39,45);
+    border-radius: 50px;
+    width: 1600px;
+    font-family: Sans-serif;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+button:hover {
+    transform: scale(1.1);
+  }
