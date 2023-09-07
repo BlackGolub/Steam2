@@ -79,8 +79,8 @@ const ColumnCenter = () => {
                                 </div>
                                 <div className={styles.card_game_text}>
                                     <h1 className={styles.card_name_title} id="show">Uncharted 4</h1>
-                                    <pre className={styles.card_description} id="show">Is a continuation of Uncharted 3:
-                                    Drake's Deception and the last part
+                                    <pre className={styles.card_description} id="show">Is a continuation of Uncharted 3:<br/>
+                                    Drake's Deception and the last part<br/>
                                     of the adventures of Nathan Drake.</pre>
                                 </div>
                             </div>
@@ -92,9 +92,9 @@ const ColumnCenter = () => {
                                 </div>
                                 <div className={styles.card_game_text}>
                                     <h1 className={styles.card_name_title}>Dishonored:<br/> Standard Edition</h1>
-                                    <pre className={styles.card_description} id="show">Dishonored is a rich first—person
-                                    action game in which you have to get used
-                                    to the role of a murderer.</pre>
+                                    <pre className={styles.card_description} id="show">Dishonored is a rich first—person<br/>
+                                    action game in which you have to<br/> 
+                                    get used to the role of a murderer.</pre>
                                 </div>
                             </div>
                             <div className={styles.card_game} id="block-3"  onMouseEnter={() => handleMouseEnter('block-3')} 
@@ -105,9 +105,10 @@ const ColumnCenter = () => {
                                 </div>
                                 <div className={styles.card_game_text}>
                                     <h1 className={styles.card_name_title}>Elden Ring</h1>
-                                    <pre className={styles.card_description}  id="show">Elden Ring is a role-playing game
-                                    project developed in the style of "Dark Souls",
-                                    which sends us towards incredible adventures</pre>
+                                    <pre className={styles.card_description}  id="show">Elden Ring is a role-playing game<br/>
+                                    project developed in the style of<br/> 
+                                    "Dark Souls", which sends us<br/>
+                                     towards incredible adventures</pre>
                                 </div>
                             </div>
                         </div>
