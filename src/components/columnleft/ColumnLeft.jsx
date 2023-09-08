@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import styles from './ColumnLeft.module.css';
 import { AiOutlinePlus, AiFillGift, AiFillPieChart } from 'react-icons/ai';
 import { PiSquaresFourFill, PiTelevisionSimpleFill } from 'react-icons/pi';
@@ -12,7 +12,7 @@ const ColumnLeft = () => {
         setActiveTab(tabId);
     };
 
-    const navItems = [
+    const navItems = useMemo(() => [
         { id: "home", icon: <BsHouseFill /> },
         { id: "joystick", icon: <BiSolidJoystick /> },
         { id: "gift", icon: <AiFillGift /> },
@@ -20,13 +20,13 @@ const ColumnLeft = () => {
         { id: "chart", icon: <AiFillPieChart /> },
         { id: "bag", icon: <BsFillBagFill /> },
         { id: "chat", icon: <BsChatLeftDotsFill /> },
-    ];
+    ], []);
 
     useEffect(() => {
         if (navItems.length > 0) {
             setActiveTab(navItems[0].id);
         }
-    }, []);
+    }, [navItems]);
 
     return (
         <div className={styles.column}>
