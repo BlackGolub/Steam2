@@ -57,14 +57,14 @@ const ColumnCenter = () => {
                                 game.</pre>
                             <div className={styles.evaluations}>
                                 <div className={styles.users}>
-                                    <img className={styles.user_like} src="/user_like.jpg" alt=""/>
-                                    <img className={styles.user_like_message} src="/user_like2.jpg" alt=""/>
-                                    <img className={styles.user_like_message} src="/user_like3.jpg" alt=""/>
+                                    <img className={styles.user_like} src="/Steam2/user_like.jpg" alt=""/>
+                                    <img className={styles.user_like_message} src="/Steam2/user_like2.jpg" alt=""/>
+                                    <img className={styles.user_like_message} src="/Steam2/user_like3.jpg" alt=""/>
                                 </div>
                                 <div className={styles.like}><BiSolidLike/><pre className={styles.black_text}> +53 Reviews</pre> </div>
                             </div>
                         </div>
-                        <img className={styles.carousel_img} src="/Valorant.png" alt=""/>
+                        <img className={styles.carousel_img} src="/Steam2/Valorant.png" alt=""/>
                     </div>
                     <div className={styles.head_news}>
                         <h1 className={styles.name_block}>New Games</h1>
@@ -72,7 +72,7 @@ const ColumnCenter = () => {
                     </div>
                         <div className={styles.cards_games}>
                             <div className={styles.card_game} id="block-1" onMouseEnter={() => handleMouseEnter('block-1')} 
-                                onMouseLeave={() => handleMouseLeave('block-1')} style={{ backgroundImage: 'url(/Uncharted.jpg)' }}>
+                                onMouseLeave={() => handleMouseLeave('block-1')} style={{ backgroundImage: 'url(/Steam2/Uncharted.jpg)' }}>
                                 <div className={styles.game_buttons} id="show">
                                     <button className={styles.game_button_play}><BsFillPlayFill /></button>
                                     <button className={styles.game_button_store}><BsFillBagFill /></button>
@@ -85,7 +85,7 @@ const ColumnCenter = () => {
                                 </div>
                             </div>
                             <div className={styles.card_game} id="block-2"  onMouseEnter={() => handleMouseEnter('block-2')} 
-                                onMouseLeave={() => handleMouseLeave('block-2')} style={{ backgroundImage: 'url(/Dishonored.jpg)' }}>
+                                onMouseLeave={() => handleMouseLeave('block-2')} style={{ backgroundImage: 'url(/Steam2/Dishonored.jpg)' }}>
                                 <div className={styles.game_buttons} id="show">
                                     <button className={styles.game_button_play}><BsFillPlayFill /></button>
                                     <button className={styles.game_button_store}><BsFillBagFill /></button>
@@ -98,7 +98,7 @@ const ColumnCenter = () => {
                                 </div>
                             </div>
                             <div className={styles.card_game} id="block-3"  onMouseEnter={() => handleMouseEnter('block-3')} 
-                                onMouseLeave={() => handleMouseLeave('block-3')} style={{ backgroundImage: 'url(/Elden_Ring.jpg)' }}>
+                                onMouseLeave={() => handleMouseLeave('block-3')} style={{ backgroundImage: 'url(/Steam2/Elden_Ring.jpg)' }}>
                                 <div className={styles.game_buttons} id="show">
                                     <button className={styles.game_button_play}><BsFillPlayFill /></button>
                                     <button className={styles.game_button_store}><BsFillBagFill /></button>
@@ -151,7 +151,7 @@ const ColumnCenter = () => {
                     <div className={styles.advertisement}>
                         <div className={styles.advertisement_card}>
                             <div className={styles.info}>
-                                <img className={styles.game_img} src="/game.png" alt=""/>
+                                <img className={styles.game_img} src="/Steam2/game.png" alt=""/>
                                 <div className={styles.advertisement_text}>
                                     <div className={styles.advertisement_title}>Subway Surfers</div>
                                     <div className={styles.advertisement_info}>(New Map + New Hero)</div>
@@ -161,7 +161,7 @@ const ColumnCenter = () => {
                         </div>
                         <div className={styles.advertisement_card}>
                             <div className={styles.info}>
-                                <img className={styles.game_img}  src="/game2.jpg" alt=""/>
+                                <img className={styles.game_img}  src="/Steam2/game2.jpg" alt=""/>
                                 <div className={styles.advertisement_text}>
                                     <div className={styles.advertisement_title}>Minecraft</div>
                                 </div>
@@ -170,7 +170,7 @@ const ColumnCenter = () => {
                         </div>
                         <div className={styles.advertisement_card}>
                             <div className={styles.info}>
-                                <img className={styles.game_img}  src="/game3.png" alt=""/>
+                                <img className={styles.game_img}  src="/Steam2/game3.png" alt=""/>
                                 <div className={styles.advertisement_text}>
                                     <div className={styles.advertisement_title}>Red Dead Redemption 2</div>
                                     <div className={styles.advertisement_info}>(Premium Pack)</div>
@@ -193,15 +193,15 @@ const ColumnCenter = () => {
                             </div>
                             <ul className={styles.total_games}>
                                 <li className={styles.game}>
-                                    <img className={styles.logo_game} src="/logo_game.png" alt=""/>
+                                    <img className={styles.logo_game} src="/Steam2/logo_game.png" alt=""/>
                                     <div className={styles.hours_game}>5,200h</div>
                                 </li>
                                 <li className={styles.game}>
-                                    <img className={styles.logo_game} src="/logo_cs.jpg" alt=""/>
+                                    <img className={styles.logo_game} src="/Steam2/logo_cs.jpg" alt=""/>
                                     <div className={styles.hours_game}>4,340h</div>
                                 </li>
                                 <li className={styles.game}>
-                                    <img className={styles.logo_game} src="/logo_rocket.jpg" alt=""/>
+                                    <img className={styles.logo_game} src="/Steam2/logo_rocket.jpg" alt=""/>
                                     <div className={styles.hours_game}>2,800h</div>
                                 </li>
                             </ul>
