@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Steam2/static/css/main.359193c1.css",
-    "main.js": "/Steam2/static/js/main.0665032c.js",
+    "main.js": "/Steam2/static/js/main.06b8724c.js",
     "static/media/Gif.gif": "/Steam2/static/media/Gif.66b094412df7afd397c7.gif",
     "static/media/hs.jpg": "/Steam2/static/media/hs.01cf32e55b6560a7e7ec.jpg",
     "index.html": "/Steam2/index.html",
     "main.359193c1.css.map": "/Steam2/static/css/main.359193c1.css.map",
-    "main.0665032c.js.map": "/Steam2/static/js/main.0665032c.js.map"
+    "main.06b8724c.js.map": "/Steam2/static/js/main.06b8724c.js.map"
   },
   "entrypoints": [
     "static/css/main.359193c1.css",
-    "static/js/main.0665032c.js"
+    "static/js/main.06b8724c.js"
   ]
 }
